@@ -1,17 +1,3 @@
-nom1="Phuong Dung NGUYEN"
-nom2="Haroun FENIZA"
-
-today=$(date)
-
-echo "--------------------------"
-echo "------ Projet Suivi ------"
-echo "------- MIASH 2022 -------"
-echo "------ Calculatrice ------"
-echo "- Par ${nom1:0:20} -"
-echo "---- et ${nom2:0:20} ----"
-echo "- ${today:0:22} -"
-echo "--------------------------"
-
 formatChain()
 {
   mot=$1
